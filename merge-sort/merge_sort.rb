@@ -7,8 +7,6 @@ class MergeSort
 
     left_array = array.take(half_of_elements)
     right_array = array.drop(half_of_elements)
-    p left_array
-    p right_array
 
     sorted_left = sort(left_array)
     sorted_right = sort(right_array)
